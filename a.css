@@ -66,25 +66,12 @@ background-size: cover;
 position: relative;
 }
 
-footer {
 
-background-size: 100% 100%;
-
-background-position: center center;
-width: 100%;
-height: auto;
-
-
-background-repeat: no-repeat;
-
-font-size: 20px;
-
-}
 
 #loading {
 width: 100%;
 height: 100vh;
-background: #fff url('tenor1.gif') no-repeat center;
+background: #fff url('rotate-pulsating-loading-animation.gif') no-repeat center;
 position: fixed;
 z-index: 999999;
 }
