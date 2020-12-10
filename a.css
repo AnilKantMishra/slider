@@ -71,7 +71,7 @@ position: relative;
 #loading {
 width: 100%;
 height: 100vh;
-background: #fff url('rotate-pulsating-loading-animation.gif') no-repeat center;
+background: #fff url('tenor1.gif') no-repeat center;
 position: fixed;
 z-index: 999999;
 }
