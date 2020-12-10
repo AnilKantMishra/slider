@@ -57,3 +57,8 @@ $(document).ready(function () {
 
 });
 
+var preloader = document.getElementById('loading');
+function myFun() {
+    preloader.style.display = 'none';
+}
+
