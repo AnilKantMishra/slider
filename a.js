@@ -24,7 +24,7 @@ $(document).ready(function () {
         $(nextImg).fadeOut(1000, function () {
 
 
-            if (nextImg.length > 1) { //check the length of the image not equal to Zero
+            if (nextImg.length) { //check the length of the image not equal to Zero
                 console.log(nextImg.length)
                 currentImg.removeClass('active') //.css('z-index',-10);
                 nextImg.addClass('active');
