@@ -1,0 +1,143 @@
+/*--------Slider Csss-------*/
+.container1 {
+width: 100%;
+overflow: hidden;
+position: absolute;
+}
+
+.slider-inner {
+width: 80%;
+height: 550px;
+position: relative;
+overflow: hidden;
+padding: 20px;
+float: left;
+margin-left: 30px;
+padding: 3px;
+
+}
+
+.slider-inner img {
+display: none;
+width: 100%;
+height: 560px;
+}
+
+.slider-inner img.active {
+display: inline-block;
+}
+
+.prev,
+.next {
+float: left;
+margin-top: 210px;
+cursor: pointer;
+}
+
+.prev {
+position: relative;
+margin-right: -35px;
+z-index: 100;
+}
+
+.next {
+position: relative;
+margin-left: 0px;
+z-index: 100;
+}
+
+.slide-outer {
+border: 1px solid blue;
+}
+
+
+.active {
+opacity: 1;
+}
+
+/*-----------------end Of Slider css----------*/
+.hero-image {
+background-image: url("computer.jpg");
+background-color: #cccccc;
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+footer {
+
+background-size: 100% 100%;
+
+background-position: center center;
+width: 100%;
+height: auto;
+
+
+background-repeat: no-repeat;
+
+font-size: 20px;
+
+}
+
+#loading {
+width: 100%;
+height: 100vh;
+background: #fff url('tenor1.gif') no-repeat center;
+position: fixed;
+z-index: 999999;
+}
+
+
+html,
+body {
+overflow-x: hidden;
+}
+
+button {
+background-color: rgb(79, 216, 205);
+color: white;
+font: bold;
+width: 80px;
+border-radius: 10px;
+height: 40px;
+font-size: 20px;
+text-align: center;
+margin-bottom: 30px;
+}
+
+.hero-text {
+text-align: left;
+position: absolute;
+top: 50%;
+left: 250px;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+.body {
+color: pink;
+position: relative;
+font-family: "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+overflow-x: hidden;
+line-height: 1.5;
+}
+
+.banner {
+margin-top: -20px;
+background-size: 100% 100%;
+padding: 120px 0px;
+background-position: center center;
+width: 100%;
+height: auto;
+
+
+background-repeat: no-repeat;
+;
+position: relative;
+color: white;
+background-image: linear-gradient(rgba(4, 168, 255, 0.3), rgba(197, 31, 95, 0.3)), url('computer.jpg')
+}

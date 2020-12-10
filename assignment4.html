@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" />
+
+
+  <linl rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="a.css">
+</head>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #da2aae">
+  <div class="container">
+    <a class="navbar-brand text-warning font-weight-bold" href="#" style=" font-size: 30px; padding:5px; ">
+      <em> OSLO
+      </em></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" margin-top='10px'
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+      <ul class="navbar-nav mr-auto" style="padding: 10px; ">
+
+        <li class="nav-item">
+
+
+          <a class="nav-link" href="#review">
+            <h2 style="color: white; font-size: 15px; margin-left: 25px;">REVIEWS </h2>
+          </a>
+        </li>
+        <li class="nav-item">
+
+          <a class="nav-link" href="#feature">
+            <h2 style="color: white; font-size: 15px; margin-left: 25px;">FEATURE </h2>
+          </a>
+          </a>
+        </li>
+
+      </ul>
+
+
+      <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First group">
+          <a href="#sign">
+            <button type="button" class="btn btn-success btn-lg">Login</button>
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+</nav>
+
+
+<!-- banner section!-->
+
+<div class="banner">
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="caption" style="text-align: center;">
+
+          <p style=" font-size:22px;margin-bottom: 100px; margin-top: 0px;"><mark> Unleash Your Potential
+              <br></mark><br>
+            we bring professional photographers direct to your home so that you can
+            have pictures of your loved ones.You can ask for more than you ordered
+            The products of photography are called negatives and photographs, the latter being developed from the
+            negatives</p>
+          <button type="button" class="btn btn-info" style="margin-bottom: 20px;">Read More</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</div>
+
+<br>
+
+<hr>
+<div class="container">
+  <h1 style="text-align: center;color: #ff1a66;font-family:Verdana;">Cover Your Page</h1>
+
+
+
+  <img class="im" src="laptop.png" style=" width:100%; height:480px; margin-top: 0px;" alt=responsive image>
+  <center>
+    <strong>
+      <button id="hide">Hide</button>
+      <button id="show">Show</button>
+    </strong>
+  </center>
+</div>
+
+
+
+<div class="row border">
+  <div class="col-lg-6 col-sm-12 col-xs-12 p-3 ">
+    <img src="https://source.unsplash.com/500x400/?food" width="50%" height="auto;" style="border-radius: 40%; margin-top:
+            10%;margin-left: 10% ;z-index:-2 ;float: left;">
+    <p id="rcorners2"></p>
+  </div>
+  <div class="col-lg-6 col-sm-12 col-xs-12 container position-relative p-3"
+    style="width: 100%; height:auto; margin-top: 10%; font-size: 18px;">
+    <h1 style="margin-left: 15px;">Discover a unique experience</h1>
+    <p style="margin-left: 15px;">we bring professional photographers direct to your home so that you can <br>have
+      pictures of your loved
+      ones.You can ask for more than you ordered <br>
+      The products of photography are called negatives and photographs, the latter being developed from the negatives
+    </p>
+  </div>
+</div>
+
+
+<div class="container " id='feature'>
+  <b>
+    <p style="text-align: center;margin-top: 50px;  font-size: 25px;  color: #00bcd4;"> Feature</p>
+  </b>
+
+  <b>
+    <p style="text-align: center; color: #ff1a66; font-size: 35px; margin-top: 20px; margin-bottom: 15px;">Be On The
+      Same Page
+  </b></p>
+
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+        <div class="card" style="width: 30rem;height: 330px;   border-radius: 0px;
+              padding: 50px 40px;
+              text-align: center;  background-color: white;">
+          <i class="fa fa-users fa-spin imgsetting fa-4x"
+            style="text-align: center; margin-top: 20px; color: #00bcd4;"></i>
+
+
+          <div class="card-body">
+            <p class="card-title" style="font-size: 16px;"> Strength
+
+            <h4 class="card-text">
+              I am a text box .Double click me to edit the text or change the way
+              i
+              look . You can change the size, color, font and so much more.For advanced styling options, click on
+              "more" located on the right hand side of the text editing.</h4>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+        <div class="card" style="width: 30rem;  height: 330px;    border-radius: 0px;
+            padding: 50px 40px;
+            text-align: center;  background-color: white;">
+          <i class="fa fa-eye imgsetting fa-spin fa-4x"
+            style="text-align: center; margin-top: 20px; color: #00bcd4;"></i>
+
+
+          <div class="card-body">
+            <p class="card-title" style="font-size: 16px;"> Stay Organised</p>
+            <h4 class="card-text">
+              I am a text box .Double click me to edit the text or change the way
+              i
+              look . You can change the size, color, font and so much more.For advanced styling options, click on
+              "more" located on the right hand side of the text editing. </h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+        <div class="card" style="width: 30rem; height: 330px;     border-radius: 0px;
+                padding: 50px 40px;
+                text-align: center;  background-color: white;">
+          <i class="fa fa-certificate fa-spin imgsetting fa-4x"
+            style="text-align: center; margin-top: 20px; color: #00bcd4;"></i>
+
+
+          <div class="card-body">
+            <p class="card-title" style="font-size: 16px;"> Collaborate </p>
+            <h4 class="card-text">
+              I am a text box .Double click me to edit the text or change the way
+              i
+              look . You can change the size, color, font and so much more.For advanced styling options, click on
+              "more" located on the right hand side of the text editing. </h4>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<br>
+<hr>
+
+
+
+<div class="container" id="review">
+  <b>
+    <h3 style="text-align: center; color: #00bcd4;margin-top: 40px; font-size: 25px;"> Review</h3>
+  </b>
+  <b>
+    <p style="text-align: center; color: #ff1a66; font-size: 30px;">Amazing Review By Our Top Users </p>
+  </b>
+  <br>
+
+  <div class="row ">
+
+    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+
+      <div class="card" style="width: 32rem; cursor: pointer;   ">
+        <img class="card-img-top" src="team-01.jpg" width="30%" alt="Card image">
+
+
+        <div class="card-body" style="text-align: center;">
+          <h4 class="card-title" style="font-size: 15px; color: #00bcd4;"> Jonathan Smart</h4>
+          <p class="card-text" style="font-size: 15px; ">I like there availability of 24*7 they will
+            be always ready to help you </p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+
+      <div class="card" style="width: 32rem;  cursor: pointer;  ">
+        <img class="card-img-top" src="team-02.jpg" width="30%" alt="Card image">
+
+
+        <div class="card-body" style="text-align: center;">
+          <h4 class="card-title" style="font-size: 15px; color: #00bcd4;"> Marry Morris</h4>
+          <p class="card-text" style="font-size: 15px;  ">I am blogger and my all days start with
+            photos and all so they helped me alot </p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+
+      <div class="card" style="width: 32rem; cursor: pointer;   ">
+        <img class="card-img-top" src="team-03.jpg" width="30%" alt="Card image">
+
+
+        <div class="card-body" style="text-align: center;">
+          <h4 class="card-title" style="font-size: 15px; color: #00bcd4;"> George</h4>
+          <p class="card-text" style="font-size: 15px; ">I am blogger and my all days start with
+            photos and all so they helped me alot </p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<hr>
+
+
+
+
+
+<div class="container-fluid " style="opacity: 0.8;" id='sign'>
+
+  <div class="row"
+    style="background-image: url(computer.jpg); background-position: center; background-repeat: no-repeat;background-size:cover ;">
+    <div class="col-lg ">
+      <b>
+        <h3 class="text-center mt-5 text-light" style=" font-size: 30px;"> // 05 Sign Up</h3>
+        <b>
+          <p class="text-justify text-center text-white" style="color: #FFFFFF">
+            Get Creative With This Revolutionary Tool
+          </p>
+    </div>
+
+    <div class="col-lg " style="font-size: 20px; margin-right: 45px; color: rgb(216, 23, 23)">
+      <form class="mt-5">
+        <b>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+            <div class="form-group">
+              <label for="exampleInputPassword1">Mobile Number</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Mobile Number">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+</div>
+<div class="container">
+  <div class="container1">
+    <div class="slider-outer">
+      <img src="prev.png" style="width: 25px;height: 50px;" class="prev" alt="prev">
+      <div class="slider-inner">
+        <img class="active" id="5img" src="https://source.unsplash.com/500x400/?lucknow"
+          style=" width:100%; height:530px; margin-top: 10px;" alt=responsive image>
+        <img class="active" id="5img" src="https://source.unsplash.com/500x400/?dog"
+          style=" width:100%; height:530px; margin-top: 10px;" alt=responsive image>
+        <img class="active" id="5img" src="https://source.unsplash.com/500x400/?cutebaby"
+          style=" width:100%; height:530px; margin-top: 10px;" alt=responsive image>
+        <img class="active" id="5img" src="https://source.unsplash.com/500x400/?kalam"
+          style=" width:100%; height:530px; margin-top: 10px;" alt=responsive image>
+        <img class="active" id="5img" src="https://source.unsplash.com/500x400/?quotes"
+          style=" width:100%; height:530px; margin-top: 10px;" alt=responsive image>
+        <img class="active" id="5img" src="https://source.unsplash.com/500x400/?mountain"
+          style=" width:100%; height:530px; margin-top: 10px;" alt=responsive image>
+      </div>
+      <img src="next.png" style="width: 25px;height: 50px; margin-right: 0px;" class="next" alt="next">
+    </div>
+
+  </div>
+
+</div>
+</body>
+<script>
+
+
+  $(document).ready(function () {
+
+
+    $("#hide").click(function () {
+      $(".im").hide(1000);
+    });
+    $("#show").click(function () {
+      $(".im").show(1000);
+    });
+    $("em").animate({
+      "margin-left": "25%"
+    }, "slow");
+    $("em").animate({
+      "margin-left": "0%"
+    }, "slow");
+
+    $('.next').on('click', function () {
+
+
+
+      var currentImg = $('.active');
+
+      var nextImg = currentImg.next();
+      $(nextImg).fadeOut(1000, function () {
+
+
+        if (nextImg.length > 1) { //check the length of the image not equal to Zero
+          console.log(nextImg.length)
+          currentImg.removeClass('active') //.css('z-index',-10);
+          nextImg.addClass('active');
+          $(".active").fadeIn(1000);
+
+
+        }
+
+      });
+    });
+
+
+    $('.prev').on('click', function () {
+      var currentImg = $('.active');
+      var prevImg = currentImg.prev();
+      $(prevImg).fadeOut(1000, function () {
+
+
+        if (prevImg.length) {
+          currentImg.removeClass('active');
+          prevImg.addClass('active');
+          $(".active").fadeIn(1000);
+        }
+
+      });
+    });
+    setInterval(function () {
+
+    }, 1000);
+
+  });
+
+
+
+</script>
+
+</html>
